@@ -1,9 +1,9 @@
 n = int(input())
-a = []
+cnt = 0
 
-for i in range(2700000):
+for i in range(10000000):
     if '666' in str(i):
-        a.append(i)
-    if len(a) == n:
+        cnt += 1
+    if cnt == n:
         print(i)
         break
