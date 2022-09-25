@@ -1,8 +1,5 @@
-n = input()
+n = list(input())
 
-a = []
-for c in n:
-    a.append(c)
-a.sort(reverse=True)
+n.sort(reverse=True)
 
-print(''.join(a))
+print(''.join(n))
